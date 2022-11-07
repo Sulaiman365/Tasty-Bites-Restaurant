@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+#content
+{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 0.1fr 0.7fr 0.2fr;
+}
+#main-body
+{
+    display: grid;
+    grid-template-columns: 0.1fr 0.4fr 0.3fr 0.2fr;
+}
+#body-center
+{
+    display: flex;
+    background-image: url('../siniz-kim-aWWl29-VX7Y-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+#body-right
+{
+  display: grid;
+  grid-template-rows: 0.2fr 0.5fr 0.2fr 0.1;
+  padding: 5px; 
+}
+#body-right>div:nth-child(1)
+{
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#body-right>div:nth-child(2)
+{
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+}
+#body-right>div:nth-child(3)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#body-right>div:nth-child(4)
+{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+}
+#body-right>div:nth-child(4)>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer
+{
+    display: grid;
+    grid-template-columns: repeat(4,0.25fr);
+    padding: 10px;
+    margin: 10px;
+}
+#footer>div>div>img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#footer>div>div>div
+{
+    margin: 10px;
+}
+#footer>div>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 24px;
+}
+#footer>div
+{
+    display: grid;
+    grid-template-rows: repeat(2,0.5fr);
+}
